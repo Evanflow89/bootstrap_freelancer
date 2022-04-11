@@ -35,3 +35,11 @@ header {
 .container_customMd {
     max-width: 992px;
 }
+
+footer {
+    background-color: #3a546d;
+}
+
+.footer-bottom {
+    background-color: #2c3e50;
+}
