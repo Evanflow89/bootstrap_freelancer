@@ -12,7 +12,8 @@ header {
     list-style: none;
 }
 
-.heroSection {
+.heroSection,
+.About {
     background-color: #1abc9c;
 }
 
@@ -25,4 +26,12 @@ header {
 .avatar {
     max-width: 250px;
     margin: auto;
+}
+
+.container_custom {
+    max-width: 1180px;
+}
+
+.container_customMd {
+    max-width: 992px;
 }
