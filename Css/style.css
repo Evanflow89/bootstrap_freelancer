@@ -1,4 +1,29 @@
 /*-------------
+   TYPO
+-------------*/
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+
+.heroP {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/*-------------
    COMMONS
 -------------*/
 
@@ -25,7 +50,7 @@ header {
 }
 
 .avatar {
-    max-width: 250px;
+    max-width: 200px;
     margin: auto;
 }
 
