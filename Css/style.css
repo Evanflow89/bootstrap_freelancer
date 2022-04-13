@@ -98,3 +98,20 @@ footer {
 .portfolioCards img {
     border-radius: 10px;
 }
+
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.bar {
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    z-index: 10;
+    border-radius: 20px;
+}
