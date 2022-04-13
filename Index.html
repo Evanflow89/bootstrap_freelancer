@@ -14,21 +14,33 @@
 <body>
     <!--################# SECTION HEADER ################-->
     <header>
-        <div class="container container_custom">
-            <div class="container-fluid">
-                <div class="row p-3">
-                    <div class="col-6 text-center">
-                        <h3>Start Bootstrap</h3>
-                    </div>
-                    <div class="col-6 text-center">
-                        <ul class="Main-Nav d-inline-flex flex-row align-items-center justify-content-end">
-                            <li>Lorem</li>
-                            <li>Lorem</li>
-                            <li>Lorem</li>
+        <div class="container container_customx">
+
+            <nav class="navbar navbar-expand-lg navbarCustomize navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand NavLogo" href="#">Start Bootstrap</a>
+                    <div class="collapse navbar-collapse navBarCustom" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav navBarCustom me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
+
         </div>
 
     </header>
@@ -45,7 +57,7 @@
 
     <!--################# SECTION PORTFOLIO ################-->
 
-    <section class="portfolio text-center p-3">
+    <section class="portfolio text-center p-3 pb-5">
         <div class="container container_custom">
             <div class="container-fluid">
                 <h2>Portfolio</h2>
@@ -73,23 +85,16 @@
     <!--################# SECTION ABOUT ################-->
     <section class="About p-3">
         <div class="container container_customMd">
-            <div class="container-fluid text-center">
-                <h2>About</h2>
+            <div class="container-fluid">
+                <h2 class="pt-4 text-center">About</h2>
                 <hr>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-xl-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
-                        ipsum tempore reiciendis, consequuntur dolores alias facilis beatae quibusdam ducimus? Veniam
-                        eum
-                        unde possimus quos, sequi quod harum aut assumenda commodi. Lorem ipsum, dolor sit amet
-                        consectetur adipisicing elit. Officiis nam dolore fugiat perferendis laudantium ad est
-                        doloremque placeat delectus, quos ducimus vitae ab quasi accusantium iure ut odit, blanditiis
-                        laboriosam? </div>
-                    <div class="col-12 col-md-6 col-xl-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                        impedit quisquam explicabo quas obcaecati cupiditate necessitatibus doloribus laborum blanditiis
-                        asperiores! Inventore dolor architecto at totam perferendis, explicabo earum saepe deserunt.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit corporis ipsam reprehenderit
-                        eius a. Autem tenetur, odio unde molestias inventore explicabo. Vitae numquam enim, itaque
-                        placeat deleniti iste vero laudantium.
+                <div class="row AboutContent">
+                    <div class="col-12 col-md-6 col-xl-6 pb-4">Freelancer is a free bootstrap Theme created by Start
+                        Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as
+                        well as optional LESS stylesheets for easy customization.</div>
+                    <div class="col-12 col-md-6 col-xl-6">Whether you're a student looking to showcase your work, a
+                        professional looking to attract clients, or a graphic artist looking to share your projects,
+                        this template is the perfect starting point!
                     </div>
                 </div>
                 <button>Download</button>
@@ -143,6 +148,11 @@
             tenetur optio temporibus. Iste odit, in et hic enim asperiores incidunt consequuntur vitae blanditiis
             tenetur voluptatum!</p>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

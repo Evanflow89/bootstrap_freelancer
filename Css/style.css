@@ -8,6 +8,7 @@ h3 {
 }
 
 h1,
+h2,
 h3 {
     text-transform: uppercase;
 }
@@ -22,6 +23,19 @@ h1 {
     color: white;
 }
 
+.AboutContent {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navBarCustom ul li a {
+    color: white;
+}
+
 
 /*-------------
    COMMONS
@@ -32,11 +46,22 @@ header {
     width: 100%;
 }
 
+.navbar.navbarCustomize {
+    background-color: #2c3e50;
+}
+
 .Main-Nav {
     list-style: none;
     gap: 15px;
     height: 100%;
 }
+
+.navBarCustom {
+    flex-grow: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
 
 .heroSection,
 .About {
