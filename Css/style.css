@@ -20,6 +20,10 @@ h1 {
     font-size: 42px;
 }
 
+.h2White {
+    color: white;
+}
+
 
 .heroP {
     text-transform: uppercase;
