@@ -31,7 +31,7 @@ h1 {
 }
 
 .AboutContent {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -136,4 +136,17 @@ footer {
 .btn-Download button {
     color: white;
     border-color: white;
+}
+
+
+.input-custom {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.btn-custom {
+    background-color: #1abc9c;
+    border: none;
 }
