@@ -2,9 +2,12 @@
    TYPO
 -------------*/
 h1,
-h2,
 h3 {
     color: white;
+}
+
+h2 {
+    color: black;
 }
 
 h1,
@@ -30,10 +33,12 @@ h1 {
 
 .navbar-brand {
     color: white;
+    text-transform: uppercase;
 }
 
 .navBarCustom ul li a {
     color: white;
+    text-transform: uppercase;
 }
 
 
@@ -108,10 +113,23 @@ footer {
     color: white;
 }
 
+.starBlack {
+    color: black;
+}
+
 .bar {
     height: 4px;
     width: 100px;
     background-color: white;
     z-index: 10;
     border-radius: 20px;
+}
+
+.barBlack {
+    background-color: black;
+}
+
+.btn-Download button {
+    color: white;
+    border-color: white;
 }
