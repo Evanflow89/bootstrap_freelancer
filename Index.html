@@ -30,13 +30,13 @@
                     <div class="collapse navbar-collapse navBarCustom" id="navbarTogglerDemo03">
                         <ul class="navbar-nav navBarCustom me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                                <a class="nav-link active" aria-current="page" href="#Portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
 
                         </ul>
@@ -64,7 +64,7 @@
 
     <!--################# SECTION PORTFOLIO ################-->
 
-    <section class="portfolio text-center p-3 pb-5">
+    <section id="Portfolio" class="portfolio text-center p-3 pb-5">
         <div class="container container_custom">
             <div class="container-fluid">
                 <h2>Portfolio</h2>
@@ -74,27 +74,36 @@
                     <div class="bar barBlack"></div>
                 </div>
                 <div class="row p-3 gy-4 portfolioCards">
-                    <div class="col-12 col-md-6 col-xl-4"><img class="img-fluid" src="img/cabin.png"
-                            alt="House Picture"></div>
-                    <div class="col-12 col-md-6 col-xl-4"><img class="img-fluid" src="img/cake.png" alt="Cake Picture">
+                    <div class="col-12 col-md-6 col-xl-4 card"><img class="img-fluid" src="img/cabin.png"
+                            alt="House Picture">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-4"><img class="img-fluid" src="img/circus.png"
+                    <div class="col-12 col-md-6 col-xl-4 card"><img class="img-fluid" src="img/cake.png"
+                            alt="Cake Picture">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 card"><img class="img-fluid" src="img/circus.png"
                             alt="Circus Picture">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-4"><img class="img-fluid" src="img/game.png"
+                    <div class="col-12 col-md-6 col-xl-4 card"><img class="img-fluid" src="img/game.png"
                             alt="VIdeogame Picture">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-4"><img class="img-fluid" src="img/safe.png" alt="Safe Picture">
+                    <div class="col-12 col-md-6 col-xl-4 card"><img class="img-fluid" src="img/safe.png"
+                            alt="Safe Picture">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-4"><img class="img-fluid" src="img/submarine.png"
+                    <div class="col-12 col-md-6 col-xl-4 card"><img class="img-fluid" src="img/submarine.png"
                             alt="Submarine Picture">
+                        <div class="overlay"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--################# SECTION ABOUT ################-->
-    <section class="About p-3 pb-5">
+    <section id="about" class="About p-3 pb-5">
         <div class="container container_customMd">
             <div class="container-fluid">
                 <h2 class="pt-4 h2White text-center">About</h2>
@@ -120,7 +129,7 @@
         </div>
     </section>
     <!--################# SECTION CONTACT ME ################-->
-    <section class="contact p-3">
+    <section id="contact" class="contact p-3">
         <div class="container container_customMd">
             <h2 class="text-center">Contact Me</h2>
             <div class="star starBlack pb-3 pt-3">
@@ -179,10 +188,9 @@
                 </div>
             </div>
     </footer>
-    <div class="footer-bottom text-center pt-3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laboriosam maxime vel culpa vitae
-            tenetur optio temporibus. Iste odit, in et hic enim asperiores incidunt consequuntur vitae blanditiis
-            tenetur voluptatum!</p>
+    <div class="footer-bottom text-center pt-3 pb-4">
+        <small>Copyright &copy; Your Website 2019</small>
+        <i class="fa-solid fa-plus"></i>
     </div>
 
 
